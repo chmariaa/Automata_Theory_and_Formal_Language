@@ -1,0 +1,14 @@
+C:\Users\ASUS TUF\Documents\NfaCommentChecker\NfaCommentChecker\bin\Debug\net9.0\NfaCommentChecker.exe
+C:\Users\ASUS TUF\Documents\NfaCommentChecker\NfaCommentChecker\bin\Debug\net9.0\NfaCommentChecker.deps.json
+C:\Users\ASUS TUF\Documents\NfaCommentChecker\NfaCommentChecker\bin\Debug\net9.0\NfaCommentChecker.runtimeconfig.json
+C:\Users\ASUS TUF\Documents\NfaCommentChecker\NfaCommentChecker\bin\Debug\net9.0\NfaCommentChecker.dll
+C:\Users\ASUS TUF\Documents\NfaCommentChecker\NfaCommentChecker\bin\Debug\net9.0\NfaCommentChecker.pdb
+C:\Users\ASUS TUF\Documents\NfaCommentChecker\NfaCommentChecker\obj\Debug\net9.0\NfaCommentChecker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS TUF\Documents\NfaCommentChecker\NfaCommentChecker\obj\Debug\net9.0\NfaCommentChecker.AssemblyInfoInputs.cache
+C:\Users\ASUS TUF\Documents\NfaCommentChecker\NfaCommentChecker\obj\Debug\net9.0\NfaCommentChecker.AssemblyInfo.cs
+C:\Users\ASUS TUF\Documents\NfaCommentChecker\NfaCommentChecker\obj\Debug\net9.0\NfaCommentChecker.csproj.CoreCompileInputs.cache
+C:\Users\ASUS TUF\Documents\NfaCommentChecker\NfaCommentChecker\obj\Debug\net9.0\NfaCommentChecker.dll
+C:\Users\ASUS TUF\Documents\NfaCommentChecker\NfaCommentChecker\obj\Debug\net9.0\refint\NfaCommentChecker.dll
+C:\Users\ASUS TUF\Documents\NfaCommentChecker\NfaCommentChecker\obj\Debug\net9.0\NfaCommentChecker.pdb
+C:\Users\ASUS TUF\Documents\NfaCommentChecker\NfaCommentChecker\obj\Debug\net9.0\NfaCommentChecker.genruntimeconfig.cache
+C:\Users\ASUS TUF\Documents\NfaCommentChecker\NfaCommentChecker\obj\Debug\net9.0\ref\NfaCommentChecker.dll
