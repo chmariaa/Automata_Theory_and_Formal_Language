@@ -7,9 +7,13 @@ This project implements **DFA Minimization** to demonstrate how equivalent state
 - **Example 2:** Language Has Odd Number of 'a's (4 States → 2 States)
 
 ## Handwritten Work (Bond Paper)
+# Example 1:
 ![Handwritten Bond Paper - Example 1](MinimizationDFA/ex1.jpg)
+# Example 2:
 ![Handwritten Bond Paper - Example 2](MinimizationDFA/ex2.jpg)
 
 ## Program Execution Output
+# Examples Output:
 ![Examples Output](MinimizationDFA/examples.png)
+# Custom Tester Ouput:
 ![Custom Tester Output](MinimizationDFA/custom.png)
