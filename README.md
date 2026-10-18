@@ -15,5 +15,4 @@ Transitions are formatted as **$\text{Next State} / \text{Output}$**:
 ![Handwritten Bond Paper](MealyMachine/mealypaper.jpg)
 
 ## Program Execution Output
-# Input Tester Ouput:
 ![Examples Output](MealyMachine/m_ex.png)
