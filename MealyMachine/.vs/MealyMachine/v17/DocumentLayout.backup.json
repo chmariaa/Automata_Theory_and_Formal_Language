@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS TUF\\Documents\\NLPO\\Automata_Theory_and_Formal_Language\\MealyMachine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D039CB10-FDD7-4D90-949C-09C6463B958B}|MealyMachine\\MealyMachine.csproj|c:\\users\\asus tuf\\documents\\nlpo\\automata_theory_and_formal_language\\mealymachine\\mealymachine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D039CB10-FDD7-4D90-949C-09C6463B958B}|MealyMachine\\MealyMachine.csproj|solutionrelative:mealymachine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\NLPO\\Automata_Theory_and_Formal_Language\\MealyMachine\\MealyMachine\\Program.cs",
+              "RelativeDocumentMoniker": "MealyMachine\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\NLPO\\Automata_Theory_and_Formal_Language\\MealyMachine\\MealyMachine\\Program.cs",
+              "RelativeToolTip": "MealyMachine\\Program.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAgwIYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T10:25:33.303Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
