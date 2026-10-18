@@ -4,7 +4,7 @@ A finite-state machine implementation of a **Mealy Machine** that detects and va
 
 ## Transition Table
 Transitions are formatted as **$\text{Next State} / \text{Output}$**:
-| Present State ($q$) | Input: $/\/\\lambda$ | Input: $*\/\\lambda$ | Input: $a\/\\lambda$ |
+| Present State ($q$) | $/\/\\lambda$ | $*\/\\lambda$ | $a\/\\lambda$ |
 | :---: | :---: | :---: | :---: |
 | $\rightarrow A$ | $B / 0$ | $A / 0$ | $A / 0$ |
 | $B$ | $B / 0$ | $C / 0$ | $A / 0$ |
