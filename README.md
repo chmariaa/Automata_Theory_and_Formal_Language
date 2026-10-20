@@ -1,19 +1,18 @@
-# DFA Minimization Demonstration & Tester
+# Mealy Machine Demonstration & Tester
 
-This project implements **DFA Minimization** to demonstrate how equivalent states in a Deterministic Finite Automaton can be merged to produce a minimized DFA. It includes both the theoretical handwritten solutions and the C# implementation built using **Visual Studio 2022**.
+A finite-state machine implementation of a **Mealy Machine** that detects and validates C-style comments (`/* ... */`) in C#.
 
-## Examples
-- **Example 1:** Language Ends in "00" (4 States → 3 States)
-- **Example 2:** Language Has Odd Number of 'a's (4 States → 2 States)
+## Transition Table
+Transitions are formatted as **$\text{Next State} / \text{Output}$**:
+| Present State ($q$) | $/\/\\lambda$ | $*\/\\lambda$ | $a\/\\lambda$ |
+| :---: | :---: | :---: | :---: |
+| $\rightarrow A$ | $B / 0$ | $A / 0$ | $A / 0$ |
+| $B$ | $B / 0$ | $C / 0$ | $A / 0$ |
+| $C$ | $C / 0$ | $D / 0$ | $C / 0$ |
+| $D$ | **$A / 1$** | $D / 0$ | $C / 0$ |
 
 ## Handwritten Work (Bond Paper)
-# Example 1:
-![Handwritten Bond Paper - Example 1](MinimizationDFA/ex1.jpg)
-# Example 2:
-![Handwritten Bond Paper - Example 2](MinimizationDFA/ex2.jpg)
+![Handwritten Bond Paper](MealyMachine/mealypaper.jpg)
 
 ## Program Execution Output
-# Examples Output:
-![Examples Output](MinimizationDFA/examples.png)
-# Custom Tester Ouput:
-![Custom Tester Output](MinimizationDFA/custom.png)
+![Examples Output](MealyMachine/m_ex.png)
