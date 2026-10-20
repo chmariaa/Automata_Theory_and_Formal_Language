@@ -2,15 +2,13 @@
 
 namespace MealyMachineComment
 {
-    // states
     public enum State
     {
-        A,  B,  C, D   
+        A,  B, C,  D,  E   
     }
 
     class Program
     {
-
         static char Transition(ref State currentState, char input)
         {
             char output = '0';
@@ -24,7 +22,7 @@ namespace MealyMachineComment
                     }
                     else
                     {
-                        currentState = State.A;
+                        currentState = State.E; // invalid start
                     }
                     output = '0';
                     break;
@@ -34,13 +32,9 @@ namespace MealyMachineComment
                     {
                         currentState = State.C;
                     }
-                    else if (input == '/')
-                    {
-                        currentState = State.B;
-                    }
                     else
                     {
-                        currentState = State.A;
+                        currentState = State.E; // must have '*' after '/'
                     }
                     output = '0';
                     break;
@@ -52,7 +46,7 @@ namespace MealyMachineComment
                     }
                     else
                     {
-                        currentState = State.C; 
+                        currentState = State.C; // '/' or 'a' inside body
                     }
                     output = '0';
                     break;
@@ -60,19 +54,26 @@ namespace MealyMachineComment
                 case State.D:
                     if (input == '/')
                     {
-                        currentState = State.A;
-                        output = '1'; 
+                        currentState = State.E;
+                        output = '1'; // Valid comment closes here!
                     }
                     else if (input == '*')
                     {
-                        currentState = State.D; 
+                        currentState = State.D; // consecutive stars like /***
                         output = '0';
                     }
                     else
                     {
-                        currentState = State.C; 
+                        currentState = State.C; // false alarm, back to body
                         output = '0';
                     }
+                    break;
+
+                case State.E:
+                default:
+                    // Any character after closing or after invalid input stays in E with 0
+                    currentState = State.E;
+                    output = '0';
                     break;
             }
 
@@ -82,7 +83,7 @@ namespace MealyMachineComment
         static void Main(string[] args)
         {
             Console.WriteLine("==================================================");
-            Console.WriteLine("       MEALY MACHINE: C-STYLE COMMENT DETECTOR    ");
+            Console.WriteLine("     MEALY MACHINE: C-STYLE COMMENT VALIDATOR     ");
             Console.WriteLine("==================================================");
 
             while (true)
@@ -92,7 +93,7 @@ namespace MealyMachineComment
 
                 if (string.IsNullOrEmpty(input))
                 {
-                    Console.WriteLine("Exiting program. Goodbye!");
+                    Console.WriteLine("Exiting program. Ciao!");
                     break;
                 }
 
@@ -116,8 +117,8 @@ namespace MealyMachineComment
                 Console.WriteLine($"States:     {stateTrace}");
                 Console.WriteLine($"Outputs:    {outputTrace}");
 
-                // in a sequence detector, the comment is accepted if the last transition emitted '1'
-                if (lastOutput == '1')
+                // a string is accepted if and only if it completed the comment on its final character
+                if (lastOutput == '1' && currentState == State.E)
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("Result:     ACCEPTED");

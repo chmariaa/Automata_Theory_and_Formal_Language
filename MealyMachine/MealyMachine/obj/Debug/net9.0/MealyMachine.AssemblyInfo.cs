@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MealyMachine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ae7ca32c2f83d62e72d42a8523d85ef51e96baa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9ca50ef6b4036ce5491b2c8cd28d38e36dfced5")]
 [assembly: System.Reflection.AssemblyProductAttribute("MealyMachine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MealyMachine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
